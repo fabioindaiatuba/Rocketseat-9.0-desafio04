@@ -9,3 +9,4 @@
 * Criado layout semelhante ao facebook.
 * Criado funcionalidades dos compenents
 * Passando parametros para componente pelas props
+* Criado PropTypes nos componentes

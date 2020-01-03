@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function Comment({ data }) {
 
@@ -10,6 +11,16 @@ function Comment({ data }) {
       </p>
     </div>
   );
+}
+
+Comment.propTypes = {
+  data: PropTypes.shape({
+    author: PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      avatar: PropTypes.string.isRequired,
+    }).isRequired,
+    content: PropTypes.string.isRequired,
+  }).isRequired
 }
 
 export default Comment;
