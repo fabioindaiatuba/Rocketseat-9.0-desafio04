@@ -43,6 +43,10 @@ body {
   color: #FFF;
 }
 
+.header > .perfil > strong {
+  margin-right: 10px;
+}
+
 .list {
   width: 700px;
   max-width: 700px;
@@ -53,6 +57,7 @@ body {
   margin-top: 10px;
   border-radius: 5px;
   padding: 10px;
+  box-shadow: 3px 3px 2px rgba(180, 180, 180, 0.77);
 }
 
 .post > .post-header {
