@@ -1,8 +1,17 @@
 import React from 'react';
+
 import './App.css';
 
+import Header from './components/Header';
+import PostList from './components/PostList';
+
 function App() {
-  return <h1>Hello Desafio 04</h1>
+  return (
+    <div className="content">
+      <Header />
+      <PostList />
+    </div>
+  )
 }
 
 export default App;

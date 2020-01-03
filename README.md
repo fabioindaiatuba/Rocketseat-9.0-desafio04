@@ -4,3 +4,4 @@
 
 ### Funções Modulo 04:
 * Configurações iniciais com Webpack, Babel, Webpack Dev Server e ReactJS.
+* Criado layout semelhante ao facebook.
