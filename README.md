@@ -10,3 +10,5 @@
 * Criado funcionalidades dos compenents
 * Passando parametros para componente pelas props
 * Criado PropTypes nos componentes
+
+#### Desafio finalizado.
